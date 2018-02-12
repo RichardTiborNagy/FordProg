@@ -1,0 +1,11 @@
+PROGRAM pelda
+UTASITASOK:
+	# Ures elagazas es ciklus... #
+
+	HA IGAZ AKKOR
+	KULONBEN
+	HA_VEGE
+
+	CIKLUS AMIG IGAZ
+	CIKLUS_VEGE
+PROGRAM_VEGE

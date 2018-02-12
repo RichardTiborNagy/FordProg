@@ -1,0 +1,26 @@
+# ez egy
+  megjegyzes #
+PROGRAM oszto
+VALTOZOK:
+	EGESZ a
+	EGESZ i
+	EGESZ oszto
+	LOGIKAI vanoszto
+UTASITASOK:
+	BE: a
+	vanoszto := HAMIS
+	i := 2
+	CIKLUS AMIG NEM vanoszto ES i - 1 < a / 2
+		HA a % i = 0 AKKOR
+			vanoszto := IGAZ
+			oszto := i
+		HA_VEGE
+		i := i+1
+	CIKLUS_VEGE
+	HA vanoszto AKKOR
+		KI: vanoszto
+		KI: oszto
+	KULONBEN
+		KI: vanoszto
+	HA_VEGE
+PROGRAM_VEGE
